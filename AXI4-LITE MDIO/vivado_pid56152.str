@@ -1,0 +1,165 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:48:09 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 56152
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Aug 20 21:04:30 CST 2026
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 3840x2160
+Screen resolution (DPI): 175
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=21
+Scale size: 37
+
+Java version: 	11.0.11 64-bit
+Java home: 	D:/Vivado/Vivado/2021.2/tps/win64/jre11.0.11_9
+Java executable: 	D:/Vivado/Vivado/2021.2/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	35809
+User home directory: C:/Users/35809
+User working directory: F:/my_ip/AXI4-LITE MDIO
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Vivado/Vivado
+HDI_APPROOT: D:/Vivado/Vivado/2021.2
+RDI_DATADIR: D:/Vivado/Vivado/2021.2/data
+RDI_BINDIR: D:/Vivado/Vivado/2021.2/bin
+
+Vivado preferences file: C:/Users/35809/AppData/Roaming/Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: C:/Users/35809/AppData/Roaming/Xilinx/Vivado/2021.2/
+Vivado layouts directory: C:/Users/35809/AppData/Roaming/Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	D:/Vivado/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	F:/my_ip/AXI4-LITE MDIO/vivado.log
+Vivado journal file: 	F:/my_ip/AXI4-LITE MDIO/vivado.jou
+Engine tmp dir: 	F:/my_ip/AXI4-LITE MDIO/.Xil/Vivado-56152-renpengyu
+
+Xilinx Environment Variables
+----------------------------
+AMDRMSDKPATH: C:\Program Files\AMD\RyzenMasterSDK\
+XILINX: D:/Vivado/Vivado/2021.2/ids_lite/ISE
+XILINX_DSP: D:/Vivado/Vivado/2021.2/ids_lite/ISE
+XILINX_HLS: D:/Vivado/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: D:/Vivado/Vivado/2021.2
+XILINX_SDK: D:/Vivado/Vitis/2021.2
+XILINX_VITIS: D:/Vivado/Vitis/2021.2
+XILINX_VIVADO: D:/Vivado/Vivado/2021.2
+XILINX_VIVADO_HLS: D:/Vivado/Vivado/2021.2
+
+
+GUI allocated memory:	308 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,607 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 98 MB (+100256kb) [00:00:02]
+// [Engine Memory]: 1,607 MB (+1533417kb) [00:00:02]
+// Opening Vivado Project: F:\my_ip\AXI4-LITE MDIO\edit_ip_project.xpr. Version: Vivado v2021.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project {F:/my_ip/AXI4-LITE MDIO/edit_ip_project.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 127 MB (+24823kb) [00:00:05]
+// [GUI Memory]: 146 MB (+13373kb) [00:00:05]
+// WARNING: HEventQueue.dispatchEvent() is taking  1127 ms.
+// Tcl Message: open_project {F:/my_ip/AXI4-LITE MDIO/edit_ip_project.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/ip_repo/AXI4-LITE MDIO' since last save. 
+// Tcl Message: INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'F:/my_ip/AXI4-LITE MDIO/edit_ip_project.gen/sources_1', nor could it be found using path 'D:/ip_repo/AXI4-LITE MDIO/edit_ip_project.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/my_ip/AXI4-LITE MDIO'. 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2021.2/data/ip'. 
+// Project name: edit_ip_project; location: F:/my_ip/AXI4-LITE MDIO; part: xc7z015clg485-2
+dismissDialog("Open Project"); // bA
+// HMemoryUtils.trashcanNow. Engine heap size: 1,607 MB. GUI used memory: 94 MB. Current time: 8/20/26, 9:04:31 PM CST
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Edit Packaged IP]", 5, false); // n
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bA
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::open_ipxact_file {F:/my_ip/AXI4-LITE MDIO/component.xml} 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+dismissDialog("IP Packager"); // bA
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // aq
+selectButton(PAResourceQtoS.ReviewContentPanel_MERGE_CHANGES, "Merge changes"); // g
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes hdl_parameters [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-3166] Bus Interface 'S_AXI': References existing memory map 'S_AXI'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 19 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::check_integrity [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-2181] Payment Required is not set for this core. INFO: [IP_Flow 19-2187] The Product Guide file is missing. INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed. 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path {f:/my_ip/AXI4-LITE MDIO} 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'f:/my_ip/AXI4-LITE MDIO' 
+// [GUI Memory]: 156 MB (+3245kb) [00:00:19]
+selectButton("OptionPane.button", "OK"); // JButton
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AXI_MDIO (AXI_MDIO.v)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AXI_MDIO (AXI_MDIO.v)]", 1, false, false, false, false, false, true); // D - Double Click
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1093 ms.
+// [GUI Memory]: 167 MB (+3243kb) [00:01:22]
+// [GUI Memory]: 175 MB (+48kb) [00:12:39]

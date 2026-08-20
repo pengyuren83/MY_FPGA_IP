@@ -1,0 +1,123 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Aug 20 10:50:14 2026
+# Process ID: 26412
+# Current directory: D:/ip_repo/AXI4-LITE MDIO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39136 D:\ip_repo\AXI4-LITE MDIO\edit_ip_project.xpr
+# Log file: D:/ip_repo/AXI4-LITE MDIO/vivado.log
+# Journal file: D:/ip_repo/AXI4-LITE MDIO\vivado.jou
+# Running On: renpengyu, OS: Windows, CPU Frequency: 3072 MHz, CPU Physical cores: 16, Host memory: 33752 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/ip_repo/AXI4-LITE MDIO/edit_ip_project.xpr}
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file {D:/ip_repo/AXI4-LITE MDIO/component.xml}
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  {{d:/ip_repo/AXI4-LITE MDIO} d:/AXI_MDIO} [current_project]
+update_ip_catalog
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {d:/ip_repo/AXI4-LITE MDIO}
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {d:/ip_repo/AXI4-LITE MDIO}
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {d:/ip_repo/AXI4-LITE MDIO}
+set_property core_revision 6 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {d:/ip_repo/AXI4-LITE MDIO}
+set_property core_revision 7 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {d:/ip_repo/AXI4-LITE MDIO}
+set_property core_revision 8 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {d:/ip_repo/AXI4-LITE MDIO}
+set_property core_revision 9 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {d:/ip_repo/AXI4-LITE MDIO}
+set_property core_revision 10 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {d:/ip_repo/AXI4-LITE MDIO}
+set_property core_revision 11 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {d:/ip_repo/AXI4-LITE MDIO}
+set_property core_revision 12 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {d:/ip_repo/AXI4-LITE MDIO}
+ipx::merge_project_changes ports [ipx::current_core]
+set_property show_range {false} [ipgui::get_guiparamspec -name "MDC_CLK_FREQ_HZ" -component [ipx::current_core] ]
+set_property display_name {MDC CLK FREQ Hz} [ipgui::get_guiparamspec -name "MDC_CLK_FREQ_HZ" -component [ipx::current_core] ]
+set_property tooltip {MDC CLK FREQ Hz} [ipgui::get_guiparamspec -name "MDC_CLK_FREQ_HZ" -component [ipx::current_core] ]
+set_property widget {comboBox} [ipgui::get_guiparamspec -name "MDC_CLK_FREQ_HZ" -component [ipx::current_core] ]
+set_property enablement_value true [ipx::get_user_parameters MDC_CLK_FREQ_HZ -of_objects [ipx::current_core]]
+set_property value_validation_type list [ipx::get_user_parameters MDC_CLK_FREQ_HZ -of_objects [ipx::current_core]]
+set_property value_validation_list {1000000 2000000 2500000} [ipx::get_user_parameters MDC_CLK_FREQ_HZ -of_objects [ipx::current_core]]
+set_property display_name {AXI ADDR WIDTH} [ipgui::get_guiparamspec -name "ADDR_WIDTH" -component [ipx::current_core] ]
+set_property tooltip {AXI ADDR WIDTH} [ipgui::get_guiparamspec -name "ADDR_WIDTH" -component [ipx::current_core] ]
+set_property widget {textEdit} [ipgui::get_guiparamspec -name "ADDR_WIDTH" -component [ipx::current_core] ]
+set_property display_name {AXI CLK FREQ Hz} [ipgui::get_guiparamspec -name "AXI_CLK_FREQ_HZ" -component [ipx::current_core] ]
+set_property tooltip {AXI CLK FREQ Hz} [ipgui::get_guiparamspec -name "AXI_CLK_FREQ_HZ" -component [ipx::current_core] ]
+set_property widget {textEdit} [ipgui::get_guiparamspec -name "AXI_CLK_FREQ_HZ" -component [ipx::current_core] ]
+set_property enablement_value true [ipx::get_user_parameters AXI_CLK_FREQ_HZ -of_objects [ipx::current_core]]
+set_property value_validation_type range_long [ipx::get_user_parameters AXI_CLK_FREQ_HZ -of_objects [ipx::current_core]]
+set_property value_validation_range_minimum 5000000 [ipx::get_user_parameters AXI_CLK_FREQ_HZ -of_objects [ipx::current_core]]
+set_property value_validation_range_maximum 100000000 [ipx::get_user_parameters AXI_CLK_FREQ_HZ -of_objects [ipx::current_core]]
+set_property display_name {AXI DATA WIDTH} [ipgui::get_guiparamspec -name "DATA_WIDTH" -component [ipx::current_core] ]
+set_property tooltip {AXI DATA WIDTH} [ipgui::get_guiparamspec -name "DATA_WIDTH" -component [ipx::current_core] ]
+set_property widget {textEdit} [ipgui::get_guiparamspec -name "DATA_WIDTH" -component [ipx::current_core] ]
+set_property display_name {PHY ADDR} [ipgui::get_guiparamspec -name "PHY_ADDR" -component [ipx::current_core] ]
+set_property tooltip {PHY ADDR} [ipgui::get_guiparamspec -name "PHY_ADDR" -component [ipx::current_core] ]
+set_property widget {hexEdit} [ipgui::get_guiparamspec -name "PHY_ADDR" -component [ipx::current_core] ]
+set_property display_name {PHY ADDR} [ipgui::get_guiparamspec -name "PHY_ADDR" -component [ipx::current_core] ]
+set_property widget {hexEdit} [ipgui::get_guiparamspec -name "PHY_ADDR" -component [ipx::current_core] ]
+set_property display_name {PHY ADDRESS} [ipgui::get_guiparamspec -name "PHY_ADDR" -component [ipx::current_core] ]
+set_property widget {hexEdit} [ipgui::get_guiparamspec -name "PHY_ADDR" -component [ipx::current_core] ]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::remove_bus_parameter FREQ_HZ [ipx::get_bus_interfaces S_AXI_ACLK -of_objects [ipx::current_core]]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 13 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {d:/ip_repo/AXI4-LITE MDIO}

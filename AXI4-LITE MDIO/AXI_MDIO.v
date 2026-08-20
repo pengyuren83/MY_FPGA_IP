@@ -74,17 +74,17 @@ module AXI_MDIO #(
         end
         else
         begin
-            if(reset_counter != 32'd5_000)
+            if(reset_counter != 32'd5_000_000)
             begin
                 reset_counter <= reset_counter + 1'b1;
             end
-            else if(reset_counter == 32'd5_000)
+            else if(reset_counter == 32'd5_000_000)
             begin
                 reset_counter <= reset_counter;
             end
         end
     end
-    assign Reset_n = (reset_counter == 32'd5_000);
+    assign Reset_n = (reset_counter == 32'd5_000_000);
     // AXI State Machine
     localparam OKAY     = 2'b00;
     localparam EXOKAY   = 2'b01;
@@ -281,10 +281,11 @@ module AXI_MDIO #(
             begin
                 if(b_handshake)
                 begin
-                    s_axi_bvalid <= 1'b0;
-                    axi_state    <= 4'd1;
+                    s_axi_bvalid  <= 1'b0;
+                    axi_state     <= 4'd0;
                 end
             end
+            default:axi_state <= 4'd0;
             endcase
         end
     end
@@ -630,6 +631,8 @@ module AXI_MDIO #(
                         rd_flag        <= 1'b0;                  
                     end
                 end
+                default:
+                        state <= 4'd0;
                 endcase
             end
         end

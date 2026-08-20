@@ -2,10 +2,10 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Thu Aug 20 21:04:21 2026
-# Process ID: 56152
+# Start of session at: Thu Aug 20 19:42:06 2026
+# Process ID: 33868
 # Current directory: F:/my_ip/AXI4-LITE MDIO
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22004 F:\my_ip\AXI4-LITE MDIO\edit_ip_project.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9068 F:\my_ip\AXI4-LITE MDIO\edit_ip_project.xpr
 # Log file: F:/my_ip/AXI4-LITE MDIO/vivado.log
 # Journal file: F:/my_ip/AXI4-LITE MDIO\vivado.jou
 # Running On: renpengyu, OS: Windows, CPU Frequency: 4700 MHz, CPU Physical cores: 16, Host memory: 50004 MB
@@ -36,10 +36,10 @@ ipx::open_ipxact_file {F:/my_ip/AXI4-LITE MDIO/component.xml}
 WARNING: [IP_Flow 19-5226] Project source file 'f:/my_ip/AXI4-LITE MDIO/component.xml' ignored by IP packager.
 WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'f:/my_ip/AXI4-LITE MDIO/AXI_MDIO.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
 WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'f:/my_ip/AXI4-LITE MDIO/AXI_MDIO.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
-ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::merge_project_changes ports [ipx::current_core]
 WARNING: [IP_Flow 19-5226] Project source file 'f:/my_ip/AXI4-LITE MDIO/component.xml' ignored by IP packager.
 INFO: [IP_Flow 19-3166] Bus Interface 'S_AXI': References existing memory map 'S_AXI'.
-set_property core_revision 19 [ipx::current_core]
+set_property core_revision 14 [ipx::current_core]
 ipx::create_xgui_files [ipx::current_core]
 ipx::update_checksums [ipx::current_core]
 ipx::check_integrity [ipx::current_core]
@@ -49,3 +49,26 @@ INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
 ipx::save_core [ipx::current_core]
 update_ip_catalog -rebuild -repo_path {f:/my_ip/AXI4-LITE MDIO}
 INFO: [IP_Flow 19-725] Reloaded user IP repository 'f:/my_ip/AXI4-LITE MDIO'
+set_property core_revision 15 [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-867] Referenced XGUI file does not exist: xgui/AXI_MDIO_v1_0.tcl
+CRITICAL WARNING: [IP_Flow 19-530] File Group 'xilinx_xpgui (UI Layout)': Component file 'xgui/AXI_MDIO_v1_0.tcl' (f:/my_ip/AXI4-LITE MDIO/xgui/AXI_MDIO_v1_0.tcl) does not exist.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {f:/my_ip/AXI4-LITE MDIO}
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'f:/my_ip/AXI4-LITE MDIO'
+set_property core_revision 16 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {f:/my_ip/AXI4-LITE MDIO}
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'f:/my_ip/AXI4-LITE MDIO'
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 20 19:44:37 2026...

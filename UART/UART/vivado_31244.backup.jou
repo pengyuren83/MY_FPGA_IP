@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Aug 15 15:00:56 2026
+# Process ID: 31244
+# Current directory: F:/UART
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23916 F:\UART\edit_ip_project.xpr
+# Log file: F:/UART/vivado.log
+# Journal file: F:/UART\vivado.jou
+# Running On: renpengyu, OS: Windows, CPU Frequency: 4700 MHz, CPU Physical cores: 16, Host memory: 50004 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/UART/edit_ip_project.xpr
+ipx::open_ipxact_file F:/UART/component.xml
+update_compile_order -fileset sources_1
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/UART
