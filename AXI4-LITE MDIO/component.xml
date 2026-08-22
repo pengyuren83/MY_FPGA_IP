@@ -299,7 +299,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>b22145a2</spirit:value>
+            <spirit:value>52475e64</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -315,7 +315,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>b22145a2</spirit:value>
+            <spirit:value>52475e64</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -803,7 +803,7 @@
       <spirit:file>
         <spirit:name>AXI_MDIO.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_b22145a2</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_52475e64</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -904,11 +904,11 @@
       <xilinx:displayName>AXI4-Lite MDIO</xilinx:displayName>
       <xilinx:definitionSource>package_project</xilinx:definitionSource>
       <xilinx:vendorDisplayName>Pengyu Ren</xilinx:vendorDisplayName>
-      <xilinx:coreRevision>19</xilinx:coreRevision>
+      <xilinx:coreRevision>20</xilinx:coreRevision>
       <xilinx:upgrades>
         <xilinx:canUpgradeFrom>xilinx.com:user:AXI_MDIO:1.0</xilinx:canUpgradeFrom>
       </xilinx:upgrades>
-      <xilinx:coreCreationDateTime>2026-08-20T13:04:42Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2026-08-21T01:45:20Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="nopcore"/>
         <xilinx:tag xilinx:name="ui.data.coregen.df@25b61a3a_ARCHIVE_LOCATION">d:/ip_repo/AXI4-LITE MDIO</xilinx:tag>
@@ -1123,13 +1123,24 @@
         <xilinx:tag xilinx:name="ui.data.coregen.df@2de5222e_ARCHIVE_LOCATION">f:/my_ip/AXI4-LITE MDIO</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.df@65241425_ARCHIVE_LOCATION">f:/my_ip/AXI4-LITE MDIO</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.df@743dc5ba_ARCHIVE_LOCATION">f:/my_ip/AXI4-LITE MDIO</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@5bf07e4_ARCHIVE_LOCATION">d:/MY_FPGA_IP-main/AXI4-LITE MDIO</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@223fc447_ARCHIVE_LOCATION">d:/MY_FPGA_IP-main/AXI4-LITE MDIO</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1eddd0a7_ARCHIVE_LOCATION">d:/MY_FPGA_IP-main/AXI4-LITE MDIO</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@29e76516_ARCHIVE_LOCATION">d:/MY_FPGA_IP-main/AXI4-LITE MDIO</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@40192489_ARCHIVE_LOCATION">d:/MY_FPGA_IP-main/AXI4-LITE MDIO</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2accc93d_ARCHIVE_LOCATION">d:/MY_FPGA_IP-main/AXI4-LITE MDIO</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3d6e4275_ARCHIVE_LOCATION">d:/MY_FPGA_IP-main/AXI4-LITE MDIO</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@60f9889f_ARCHIVE_LOCATION">d:/MY_FPGA_IP-main/AXI4-LITE MDIO</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@47f168d7_ARCHIVE_LOCATION">d:/MY_FPGA_IP-main/AXI4-LITE MDIO</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@61b36ca0_ARCHIVE_LOCATION">d:/MY_FPGA_IP-main/AXI4-LITE MDIO</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7486f22b_ARCHIVE_LOCATION">d:/MY_FPGA_IP-main/AXI4-LITE MDIO</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2021.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="67fc653e"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="87ae4657"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="dfb7db0c"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="b0575ffc"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="0fba9fcd"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="fbf19452"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="14739529"/>

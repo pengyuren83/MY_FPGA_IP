@@ -191,6 +191,7 @@ module AXI_MDIO #(
                         begin
                             s_axi_rvalid <= 1'b1;
                             s_axi_rresp  <= SLVERR;
+                            s_axi_rdata  <= 32'hFFFF_FFFF;
                         end
                     end
                     if(rd_begin_flag == 1'b1)
@@ -201,7 +202,6 @@ module AXI_MDIO #(
                     if(r_handshake)
                     begin
                         s_axi_rvalid <= 1'b0;
-                        s_axi_rresp  <= OKAY;
                         axi_state    <= 4'd0;
                     end
                 end
@@ -209,10 +209,10 @@ module AXI_MDIO #(
                 begin
                     s_axi_rvalid <= 1'b1;
                     s_axi_rresp  <= SLVERR;
+                    s_axi_rdata  <= 32'hFFFF_FFFF;
                     if(r_handshake)
                     begin
                         s_axi_rvalid     <= 1'b0;
-                        s_axi_rresp      <= OKAY;
                         axi_state        <= 4'd2;
                         s_axi_wready     <= 1'b1;
                         arbitration_flag <= 1'b0;
@@ -247,7 +247,6 @@ module AXI_MDIO #(
                 begin
                     s_axi_bvalid <= 1'b0;
                     axi_state    <= 4'd0;
-                    s_axi_bresp  <= OKAY;
                 end
             end
             4'd3:
